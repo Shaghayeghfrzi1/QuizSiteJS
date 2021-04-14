@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logga in</title>
+
+    <link href="styles/styles.css" rel="stylesheet">
+    <script src="js/loginQuiz.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Quiz applikation</h1>
+    </header>
+
+    <form>
+
+        <label>Username</label>
+        <input type="text" id="UserName" />
+        <br><br>
+        <label>Password</label>
+        <input type="text" id="Password" />
+        <br><br>
+        <ul id="list">
+           <li><button id="cmdCreate">Skapa quiz</button></li> 
+            <li><button id="cmdRunQuiz"><a href="createQuiz.html?isAdmin=false">Köra quiz utan konto</a></button>    </li>
+        </ul>
+       
+    </form>
+
+    <footer>
+        <p>Skapats av Shaghayegh Firoozkaveh</p>
+    </footer>
+</body>
+</html>

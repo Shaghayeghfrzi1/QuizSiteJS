@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skapa quiz</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> <!--CSS funktionalitet-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script> <!--JAVA funktionalitet-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" defer></script> <!--JAVA funktionalitet-->
+    
+    <link href="styles/styles.css" rel="stylesheet">
+    
+    <script src="js/quiz.js" defer></script>
+    <script src="js/createQuiz.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Quiz applikation</h1>
+    </header>
+    <nav>
+        <a href="login.html">Login sida</a>
+    </nav>
+
+    <br><!--************************skapa quiz**************************-->
+    <div id="quiz-name">
+            <label>Namn för nytt quiz</label>
+          
+            <input type="text" id="quizeName"  class="question" />
+            <button id="addNewQuize">Skappa ett quiz</button>
+    </div><br><br>
+    
+
+<div class="container">
+    <div class="row">
+        <div id="show"></div>        
+    </div>
+</div>
+    <button id="cmdCreateYourQuiz">Skapa quiz</button>
+
+<br><br><br><!--********************visa quiz namner***********************-->
+    <button id="show-names">Quiz som du kan spela</button>
+
+        <div id="name-list">
+        </div>
+        <br/>
+        <div id="detail-list">
+        </div>
+        <div id="result-quize">
+        </div>
+<br><!--************************spela valde quiz**************************-->
+
+    <div id="quiz"></div>
+    <button id="submit">Visa resutatet</button>
+    <div id="results"></div>
+
+
+    <footer>
+        <p>Skapats av Shaghayegh Firoozkaveh</p>
+    </footer>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+body{
+    padding: 20px;
+    background-color: rgb(137, 197, 144);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: rgb(70, 129, 70);
+    top: 0;
+    left: 0;
+    height: 100px;
+    font-family: cursive;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+}
+h1{
+    padding-top: 20px;
+    font-family: cursive;
+    color: rgb(167, 187, 121);
+}
+footer{
+    display: block;
+    font-family: cursive;
+    top: 0;
+    left: 0;
+    height: 30px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(70, 129, 70);
+
+}
+nav{
+    display: block;
+    width: 100%;
+    background-color: rgb(70, 129, 70);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    
+}
+nav a{
+    float: left;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+form{
+    padding: 30px;
+    padding-bottom: 350px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#list li{
+    text-decoration: none;
+    display: unset;
+}
+li{
+    list-style-type: none;
+    list-style-type: circle;
+}
+.QuesAnswLi{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    color: black;
+}
+.QuesAnswLiName{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    list-style-type:square;
+    color: rebeccapurple;
+}
+#cmdCreate, #cmdRunQuiz, #cmdCreateQuiz, #cmdCreateYourQuiz, #cmdCreateYourQuizName, #quizResult, #show-names, #addNewQuize{
+    background-color: yellowgreen;
+    padding: 4px;
+    border-style: dashed;
+    border-color: yellow;
+}
+
+#submit{
+    background-color: yellow;
+    color: rebeccapurple;
+}
+#antal{
+    color: rebeccapurple;
+    background-color: yellow;
+    font-size: 20px;
+    width: 300px;
+}
+.buttonCrt{
+    color: rgb(52, 150, 52);
+    background-color: white;
+    font-style: italic;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+a:hover{
+    color: violet;
+}
+.question{
+    align-self: start;
+    width: 200px;
+}
+h6{
+    font-style: italic;
+    color: green;
+    font-family: cursive;
+}
+#quiz-name{
+    text-align: center;
+}
+#name-list button{
+    margin: 5px;
+    font-size: 15px;
+    background-color: yellow;
+    color: darkgreen;
+}
+#results{
+    font-size: 17px;
+    background-color: purple;
+    color: yellow;
+    padding-left: 40px;
+}
+#name-list{
+    font-size: 18px;
+    font-style: oblique;
+    color: teal;
+}
+.runButton{
+    margin-left: 10px;
+}
+#quiz{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 10px;
+}
